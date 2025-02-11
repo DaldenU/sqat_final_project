@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="20" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-11T22:33:43 GMT+05:00" name="eBay Test Suite" finished-at="2025-02-11T22:49:27 GMT+05:00" duration-ms="943729">
+    <groups>
+    </groups>
+    <test started-at="2025-02-11T22:33:43 GMT+05:00" name="Chrome Test" finished-at="2025-02-11T22:38:23 GMT+05:00" duration-ms="280116">
+      <class name="com.ebay.tests.functional.GiftCardTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.functional.GiftCardTest@76505305]" started-at="2025-02-11T22:34:22 GMT+05:00" name="setup" finished-at="2025-02-11T22:34:28 GMT+05:00" duration-ms="6219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.functional.GiftCardTest@76505305]" started-at="2025-02-11T22:34:28 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:34:51 GMT+05:00" duration-ms="23098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.functional.GiftCardTest@76505305]" started-at="2025-02-11T22:34:51 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:34:54 GMT+05:00" duration-ms="2553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.functional.GiftCardTest -->
+      <class name="com.ebay.tests.regression.CheckOutTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.regression.CheckOutTest@4802796d]" started-at="2025-02-11T22:37:35 GMT+05:00" name="setup" finished-at="2025-02-11T22:37:42 GMT+05:00" duration-ms="6916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.regression.CheckOutTest@4802796d]" started-at="2025-02-11T22:37:42 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:38:21 GMT+05:00" duration-ms="38393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.regression.CheckOutTest@4802796d]" started-at="2025-02-11T22:38:21 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:38:23 GMT+05:00" duration-ms="2510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.regression.CheckOutTest -->
+      <class name="com.ebay.tests.usability.RecipientNameErrorTextVisibility">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.usability.RecipientNameErrorTextVisibility@14cd1699]" started-at="2025-02-11T22:34:54 GMT+05:00" name="setup" finished-at="2025-02-11T22:35:00 GMT+05:00" duration-ms="6380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.usability.RecipientNameErrorTextVisibility@14cd1699]" started-at="2025-02-11T22:35:00 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:35:18 GMT+05:00" duration-ms="17365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.usability.RecipientNameErrorTextVisibility@14cd1699]" started-at="2025-02-11T22:35:18 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:35:20 GMT+05:00" duration-ms="2174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.usability.RecipientNameErrorTextVisibility -->
+      <class name="com.ebay.tests.boundary.CustomAmountMaximumTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.boundary.CustomAmountMaximumTest@71d44a3]" started-at="2025-02-11T22:36:30 GMT+05:00" name="setup" finished-at="2025-02-11T22:36:35 GMT+05:00" duration-ms="4718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.boundary.CustomAmountMaximumTest@71d44a3]" started-at="2025-02-11T22:36:35 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:36:52 GMT+05:00" duration-ms="16932" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element is NOT visible! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element is NOT visible! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.ebay.tests.boundary.CustomAmountMaximumTest.testAddToCart(CustomAmountMaximumTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.boundary.CustomAmountMaximumTest@71d44a3]" started-at="2025-02-11T22:36:52 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:36:54 GMT+05:00" duration-ms="2419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.boundary.CustomAmountMaximumTest -->
+      <class name="com.ebay.tests.regression.RemovalFromCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.regression.RemovalFromCartTest@7b98f307]" started-at="2025-02-11T22:36:54 GMT+05:00" name="setup" finished-at="2025-02-11T22:36:59 GMT+05:00" duration-ms="4565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.regression.RemovalFromCartTest@7b98f307]" started-at="2025-02-11T22:36:59 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:37:33 GMT+05:00" duration-ms="33778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.regression.RemovalFromCartTest@7b98f307]" started-at="2025-02-11T22:37:33 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:37:35 GMT+05:00" duration-ms="2677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.regression.RemovalFromCartTest -->
+      <class name="com.ebay.tests.usability.IncorrectAddressErrorVisibility">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.usability.IncorrectAddressErrorVisibility@77888435]" started-at="2025-02-11T22:35:20 GMT+05:00" name="setup" finished-at="2025-02-11T22:35:26 GMT+05:00" duration-ms="6599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.usability.IncorrectAddressErrorVisibility@77888435]" started-at="2025-02-11T22:35:26 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:36:02 GMT+05:00" duration-ms="35890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.usability.IncorrectAddressErrorVisibility@77888435]" started-at="2025-02-11T22:36:02 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:36:05 GMT+05:00" duration-ms="3020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.usability.IncorrectAddressErrorVisibility -->
+      <class name="com.ebay.tests.functional.AddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.functional.AddToCartTest@4550bb58]" started-at="2025-02-11T22:33:43 GMT+05:00" name="setup" finished-at="2025-02-11T22:33:49 GMT+05:00" duration-ms="5695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.functional.AddToCartTest@4550bb58]" started-at="2025-02-11T22:33:49 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:34:20 GMT+05:00" duration-ms="30805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.functional.AddToCartTest@4550bb58]" started-at="2025-02-11T22:34:20 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:34:22 GMT+05:00" duration-ms="2324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.functional.AddToCartTest -->
+      <class name="com.ebay.tests.boundary.CustomAmountMinimumTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.boundary.CustomAmountMinimumTest@73a1e9a9]" started-at="2025-02-11T22:36:05 GMT+05:00" name="setup" finished-at="2025-02-11T22:36:10 GMT+05:00" duration-ms="4718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.boundary.CustomAmountMinimumTest@73a1e9a9]" started-at="2025-02-11T22:36:10 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:36:28 GMT+05:00" duration-ms="17693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.boundary.CustomAmountMinimumTest@73a1e9a9]" started-at="2025-02-11T22:36:28 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:36:30 GMT+05:00" duration-ms="2595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.boundary.CustomAmountMinimumTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-02-11T22:38:23 GMT+05:00" name="Firefox Test" finished-at="2025-02-11T22:44:03 GMT+05:00" duration-ms="339289">
+      <class name="com.ebay.tests.functional.GiftCardTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.functional.GiftCardTest@10683d9d]" started-at="2025-02-11T22:39:09 GMT+05:00" name="setup" finished-at="2025-02-11T22:39:23 GMT+05:00" duration-ms="13053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.functional.GiftCardTest@10683d9d]" started-at="2025-02-11T22:39:23 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:39:47 GMT+05:00" duration-ms="24557" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/div/div/div[3]/div/div[2]/h2
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c4a389d923684c5595b25fed72cdcbd4, findElement {value=/html/body/div[1]/div/div/div[3]/div/div[2]/h2, using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:debuggerAddress: 127.0.0.1:8288, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}, profile: UEsDBBQAAAAIALGMS1r6Qgy8eho...}, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2572, moz:profile: C:\Users\sauce\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, selenium:webdriver.remote.quietExceptions: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: c4a389d923684c5595b25fed72cdcbd4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div/div/div[3]/div/div[2]/h2
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c4a389d923684c5595b25fed72cdcbd4, findElement {value=/html/body/div[1]/div/div/div[3]/div/div[2]/h2, using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:debuggerAddress: 127.0.0.1:8288, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}, profile: UEsDBBQAAAAIALGMS1r6Qgy8eho...}, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2572, moz:profile: C:\Users\sauce\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, selenium:webdriver.remote.quietExceptions: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: c4a389d923684c5595b25fed72cdcbd4
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.ebay.tests.functional.GiftCardTest.testAddToCart(GiftCardTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.functional.GiftCardTest@10683d9d]" started-at="2025-02-11T22:39:47 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:39:49 GMT+05:00" duration-ms="2192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.functional.GiftCardTest -->
+      <class name="com.ebay.tests.regression.CheckOutTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.regression.CheckOutTest@682b2fa]" started-at="2025-02-11T22:43:11 GMT+05:00" name="setup" finished-at="2025-02-11T22:43:24 GMT+05:00" duration-ms="12917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.regression.CheckOutTest@682b2fa]" started-at="2025-02-11T22:43:24 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:44:00 GMT+05:00" duration-ms="35867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.regression.CheckOutTest@682b2fa]" started-at="2025-02-11T22:44:00 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:44:03 GMT+05:00" duration-ms="3068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.regression.CheckOutTest -->
+      <class name="com.ebay.tests.usability.RecipientNameErrorTextVisibility">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.usability.RecipientNameErrorTextVisibility@3fc2959f]" started-at="2025-02-11T22:39:49 GMT+05:00" name="setup" finished-at="2025-02-11T22:40:01 GMT+05:00" duration-ms="12186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.usability.RecipientNameErrorTextVisibility@3fc2959f]" started-at="2025-02-11T22:40:01 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:40:19 GMT+05:00" duration-ms="17710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.usability.RecipientNameErrorTextVisibility@3fc2959f]" started-at="2025-02-11T22:40:19 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:40:21 GMT+05:00" duration-ms="2284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.usability.RecipientNameErrorTextVisibility -->
+      <class name="com.ebay.tests.boundary.CustomAmountMaximumTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.boundary.CustomAmountMaximumTest@385c9627]" started-at="2025-02-11T22:41:50 GMT+05:00" name="setup" finished-at="2025-02-11T22:42:02 GMT+05:00" duration-ms="12669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.boundary.CustomAmountMaximumTest@385c9627]" started-at="2025-02-11T22:42:02 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:42:21 GMT+05:00" duration-ms="18539" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element is NOT visible! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element is NOT visible! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.ebay.tests.boundary.CustomAmountMaximumTest.testAddToCart(CustomAmountMaximumTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.boundary.CustomAmountMaximumTest@385c9627]" started-at="2025-02-11T22:42:21 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:42:23 GMT+05:00" duration-ms="2448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.boundary.CustomAmountMaximumTest -->
+      <class name="com.ebay.tests.regression.RemovalFromCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.regression.RemovalFromCartTest@139982de]" started-at="2025-02-11T22:42:23 GMT+05:00" name="setup" finished-at="2025-02-11T22:42:37 GMT+05:00" duration-ms="13077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.regression.RemovalFromCartTest@139982de]" started-at="2025-02-11T22:42:37 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:43:08 GMT+05:00" duration-ms="31676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.regression.RemovalFromCartTest@139982de]" started-at="2025-02-11T22:43:08 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:43:11 GMT+05:00" duration-ms="2479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.regression.RemovalFromCartTest -->
+      <class name="com.ebay.tests.usability.IncorrectAddressErrorVisibility">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.usability.IncorrectAddressErrorVisibility@5aa9e4eb]" started-at="2025-02-11T22:40:21 GMT+05:00" name="setup" finished-at="2025-02-11T22:40:34 GMT+05:00" duration-ms="12486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.usability.IncorrectAddressErrorVisibility@5aa9e4eb]" started-at="2025-02-11T22:40:34 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:41:13 GMT+05:00" duration-ms="39385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.usability.IncorrectAddressErrorVisibility@5aa9e4eb]" started-at="2025-02-11T22:41:13 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:41:16 GMT+05:00" duration-ms="2558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.usability.IncorrectAddressErrorVisibility -->
+      <class name="com.ebay.tests.functional.AddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.functional.AddToCartTest@1f2586d6]" started-at="2025-02-11T22:38:23 GMT+05:00" name="setup" finished-at="2025-02-11T22:38:38 GMT+05:00" duration-ms="14310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.functional.AddToCartTest@1f2586d6]" started-at="2025-02-11T22:38:38 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:39:07 GMT+05:00" duration-ms="29245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.functional.AddToCartTest@1f2586d6]" started-at="2025-02-11T22:39:07 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:39:09 GMT+05:00" duration-ms="2647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.functional.AddToCartTest -->
+      <class name="com.ebay.tests.boundary.CustomAmountMinimumTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.boundary.CustomAmountMinimumTest@6989da5e]" started-at="2025-02-11T22:41:16 GMT+05:00" name="setup" finished-at="2025-02-11T22:41:30 GMT+05:00" duration-ms="14354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.boundary.CustomAmountMinimumTest@6989da5e]" started-at="2025-02-11T22:41:30 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:41:48 GMT+05:00" duration-ms="17359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.boundary.CustomAmountMinimumTest@6989da5e]" started-at="2025-02-11T22:41:48 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:41:50 GMT+05:00" duration-ms="2203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.boundary.CustomAmountMinimumTest -->
+    </test> <!-- Firefox Test -->
+    <test started-at="2025-02-11T22:44:03 GMT+05:00" name="Edge Test" finished-at="2025-02-11T22:49:27 GMT+05:00" duration-ms="324252">
+      <class name="com.ebay.tests.functional.GiftCardTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.functional.GiftCardTest@229f66ed]" started-at="2025-02-11T22:44:47 GMT+05:00" name="setup" finished-at="2025-02-11T22:44:57 GMT+05:00" duration-ms="9884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.functional.GiftCardTest@229f66ed]" started-at="2025-02-11T22:44:57 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:45:22 GMT+05:00" duration-ms="25639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.functional.GiftCardTest@229f66ed]" started-at="2025-02-11T22:45:22 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:45:25 GMT+05:00" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.functional.GiftCardTest -->
+      <class name="com.ebay.tests.regression.CheckOutTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.regression.CheckOutTest@77c2494c]" started-at="2025-02-11T22:48:35 GMT+05:00" name="setup" finished-at="2025-02-11T22:48:46 GMT+05:00" duration-ms="10740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.regression.CheckOutTest@77c2494c]" started-at="2025-02-11T22:48:46 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:49:25 GMT+05:00" duration-ms="38871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.regression.CheckOutTest@77c2494c]" started-at="2025-02-11T22:49:25 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:49:27 GMT+05:00" duration-ms="2309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.regression.CheckOutTest -->
+      <class name="com.ebay.tests.usability.RecipientNameErrorTextVisibility">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.usability.RecipientNameErrorTextVisibility@31190526]" started-at="2025-02-11T22:45:25 GMT+05:00" name="setup" finished-at="2025-02-11T22:45:35 GMT+05:00" duration-ms="10093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.usability.RecipientNameErrorTextVisibility@31190526]" started-at="2025-02-11T22:45:35 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:45:53 GMT+05:00" duration-ms="17770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.usability.RecipientNameErrorTextVisibility@31190526]" started-at="2025-02-11T22:45:53 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:45:55 GMT+05:00" duration-ms="2582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.usability.RecipientNameErrorTextVisibility -->
+      <class name="com.ebay.tests.boundary.CustomAmountMaximumTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.boundary.CustomAmountMaximumTest@3eb25e1a]" started-at="2025-02-11T22:47:17 GMT+05:00" name="setup" finished-at="2025-02-11T22:47:27 GMT+05:00" duration-ms="9691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.boundary.CustomAmountMaximumTest@3eb25e1a]" started-at="2025-02-11T22:47:27 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:47:45 GMT+05:00" duration-ms="18116" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element is NOT visible! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element is NOT visible! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.ebay.tests.boundary.CustomAmountMaximumTest.testAddToCart(CustomAmountMaximumTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.boundary.CustomAmountMaximumTest@3eb25e1a]" started-at="2025-02-11T22:47:45 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:47:47 GMT+05:00" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.boundary.CustomAmountMaximumTest -->
+      <class name="com.ebay.tests.regression.RemovalFromCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.regression.RemovalFromCartTest@477b4cdf]" started-at="2025-02-11T22:47:47 GMT+05:00" name="setup" finished-at="2025-02-11T22:47:58 GMT+05:00" duration-ms="10157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.regression.RemovalFromCartTest@477b4cdf]" started-at="2025-02-11T22:47:58 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:48:32 GMT+05:00" duration-ms="34600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.regression.RemovalFromCartTest@477b4cdf]" started-at="2025-02-11T22:48:32 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:48:35 GMT+05:00" duration-ms="2761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.regression.RemovalFromCartTest -->
+      <class name="com.ebay.tests.usability.IncorrectAddressErrorVisibility">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.usability.IncorrectAddressErrorVisibility@662ac478]" started-at="2025-02-11T22:45:55 GMT+05:00" name="setup" finished-at="2025-02-11T22:46:04 GMT+05:00" duration-ms="9022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.usability.IncorrectAddressErrorVisibility@662ac478]" started-at="2025-02-11T22:46:04 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:46:43 GMT+05:00" duration-ms="39005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.usability.IncorrectAddressErrorVisibility@662ac478]" started-at="2025-02-11T22:46:43 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:46:46 GMT+05:00" duration-ms="2566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.usability.IncorrectAddressErrorVisibility -->
+      <class name="com.ebay.tests.functional.AddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.functional.AddToCartTest@7dcf94f8]" started-at="2025-02-11T22:44:03 GMT+05:00" name="setup" finished-at="2025-02-11T22:44:14 GMT+05:00" duration-ms="11609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.functional.AddToCartTest@7dcf94f8]" started-at="2025-02-11T22:44:14 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:44:44 GMT+05:00" duration-ms="30249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.functional.AddToCartTest@7dcf94f8]" started-at="2025-02-11T22:44:44 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:44:47 GMT+05:00" duration-ms="2507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.functional.AddToCartTest -->
+      <class name="com.ebay.tests.boundary.CustomAmountMinimumTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.ebay.tests.boundary.CustomAmountMinimumTest@6743e411]" started-at="2025-02-11T22:46:46 GMT+05:00" name="setup" finished-at="2025-02-11T22:46:56 GMT+05:00" duration-ms="10013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToCart()[pri:0, instance:com.ebay.tests.boundary.CustomAmountMinimumTest@6743e411]" started-at="2025-02-11T22:46:56 GMT+05:00" name="testAddToCart" finished-at="2025-02-11T22:47:15 GMT+05:00" duration-ms="18752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ebay.tests.boundary.CustomAmountMinimumTest@6743e411]" started-at="2025-02-11T22:47:15 GMT+05:00" name="tearDown" finished-at="2025-02-11T22:47:17 GMT+05:00" duration-ms="2577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ebay.tests.boundary.CustomAmountMinimumTest -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- eBay Test Suite -->
+</testng-results>

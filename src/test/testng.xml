@@ -1,0 +1,45 @@
+<suite name="eBay Test Suite">
+    <test name="Chrome Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.ebay.tests.functional.AddToCartTest"/>
+            <class name="com.ebay.tests.functional.GiftCardTest"/>
+            <class name="com.ebay.tests.usability.RecipientNameErrorTextVisibility"/>
+            <class name="com.ebay.tests.usability.IncorrectAddressErrorVisibility"/>
+            <class name="com.ebay.tests.boundary.CustomAmountMinimumTest"/>
+            <class name="com.ebay.tests.boundary.CustomAmountMaximumTest"/>
+            <class name="com.ebay.tests.regression.RemovalFromCartTest"/>
+            <class name="com.ebay.tests.regression.CheckOutTest"/>
+
+            <!-- <class name="com.ebay.tests.performance.GiftCardLoadTest"/>
+            <class name="com.ebay.tests.performance.CartLoadTest"/> -->
+            
+        </classes>
+    </test>
+    <test name="Firefox Test">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.ebay.tests.functional.AddToCartTest"/>
+            <class name="com.ebay.tests.functional.GiftCardTest"/>
+            <class name="com.ebay.tests.usability.RecipientNameErrorTextVisibility"/>
+            <class name="com.ebay.tests.usability.IncorrectAddressErrorVisibility"/>
+            <class name="com.ebay.tests.boundary.CustomAmountMinimumTest"/>
+            <class name="com.ebay.tests.boundary.CustomAmountMaximumTest"/>
+            <class name="com.ebay.tests.regression.RemovalFromCartTest"/>
+            <class name="com.ebay.tests.regression.CheckOutTest"/>
+        </classes>
+    </test>
+    <test name="Edge Test">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="com.ebay.tests.functional.AddToCartTest"/>
+            <class name="com.ebay.tests.functional.GiftCardTest"/>
+            <class name="com.ebay.tests.usability.RecipientNameErrorTextVisibility"/>
+            <class name="com.ebay.tests.usability.IncorrectAddressErrorVisibility"/>
+            <class name="com.ebay.tests.boundary.CustomAmountMinimumTest"/>
+            <class name="com.ebay.tests.boundary.CustomAmountMaximumTest"/>
+            <class name="com.ebay.tests.regression.RemovalFromCartTest"/>
+            <class name="com.ebay.tests.regression.CheckOutTest"/>
+        </classes>
+    </test>
+</suite>
